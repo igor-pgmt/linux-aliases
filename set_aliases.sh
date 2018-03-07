@@ -4,7 +4,7 @@ echo -e "\n# My aliases:" >> /etc/bash.bashrc
 
 # Main aliases:
 echo 'alias sudo="sudo "' >> /etc/bash.bashrc
-echo 'alias ll="ls -lat"' >> /etc/bash.bashrc
+echo 'alias ll="ls -lat --block-size=M"' >> /etc/bash.bashrc
 echo 'alias ares="sudo /etc/init.d/apache2 restart"' >> ~/.bashrc
 echo 'alias arel="sudo /etc/init.d/apache2 reload"' >> ~/.bashrc
 echo 'alias cls="clear"' >> /etc/bash.bashrc
