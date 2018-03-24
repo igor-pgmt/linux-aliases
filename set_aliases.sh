@@ -13,6 +13,7 @@ echo 'alias pig="ping google.com"' >> /etc/bash.bashrc
 echo 'alias svi="sudo vi"' >> /etc/bash.bashrc
 echo 'alias ain="sudo apt-get install"' >> /etc/bash.bashrc
 echo 'alias cdl="cd $1 && ll"' >> /etc/bash.bashrc
+echo 'alias cdn="cat /dev/null > $1"' >> /etc/bash.bashrc
 
 # These are additional aliases in case I use such scripts.
 
