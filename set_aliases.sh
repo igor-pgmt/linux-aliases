@@ -21,5 +21,5 @@ echo 'alias cdn="cat /dev/null > $1"' >> /etc/bash.bashrc
 USER_HOME=$(eval echo ~${SUDO_USER})
 # Echo aliases for user's scripts into the bashrc file
 echo "alias wadd=\"$USER_HOME/Scripts/siteadder.sh\"" >> /etc/bash.bashrc
-echo "alias wadd=\"$USER_HOME/Scripts/yii2install.sh\"" >> /etc/bash.bashrc
-echo "alias wadd=\"$USER_HOME/Scripts/tres.sh\"" >> /etc/bash.bashrc
+echo "alias yii2install=\"$USER_HOME/Scripts/yii2install.sh\"" >> /etc/bash.bashrc
+echo "alias tres=\"$USER_HOME/Scripts/tres.sh\"" >> /etc/bash.bashrc
