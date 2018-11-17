@@ -36,5 +36,7 @@ echo 'alias gb="git branch"' >> /etc/bash.bashrc
 echo 'alias gf="git fetch"' >> /etc/bash.bashrc
 echo 'alias gc="git checkout $1"' >> /etc/bash.bashrc
 
+# Command prompt settings
+echo 'PS1=\\w\\$' >> /etc/bash.bashrc
 
 
